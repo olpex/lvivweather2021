@@ -1,0 +1,126 @@
+.frame {
+  background-color: #b7c6cc70;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #b7c6cc70;
+  width: 1283px;
+  height: 938px;
+  position: relative;
+}
+
+.frame .div-2 {
+  display: flex;
+  width: 986px;
+  align-items: center;
+  justify-content: space-between;
+  top: 170px;
+  position: absolute;
+  left: 146px;
+}
+
+.frame .element {
+  position: relative;
+  width: 288.77px;
+  height: 170px;
+  object-fit: cover;
+}
+
+.frame .img {
+  position: relative;
+  width: 288.77px;
+  height: 170.47px;
+}
+
+.frame .div-3 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 61px;
+  position: absolute;
+  top: 386px;
+  left: 146px;
+}
+
+.frame .element-2 {
+  position: relative;
+  width: 289px;
+  height: 170px;
+}
+
+.frame .https-zaxid-net-news {
+  position: relative;
+  width: 637px;
+  height: 164px;
+  margin-top: -1.00px;
+  font-family: "PT Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.frame .line {
+  top: 358px;
+  left: 148px;
+  position: absolute;
+  width: 987px;
+  height: 7px;
+}
+
+.frame .div-4 {
+  width: 987px;
+  height: 170px;
+  top: 577px;
+  position: absolute;
+  left: 146px;
+}
+
+.frame .https-zaxid-net {
+  position: absolute;
+  width: 637px;
+  top: -1px;
+  left: 350px;
+  font-family: "PT Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.frame .element-3 {
+  position: absolute;
+  width: 289px;
+  height: 170px;
+  top: 0;
+  left: 0;
+}
+
+.frame .line-2 {
+  top: 142px;
+  left: 145px;
+  position: absolute;
+  width: 987px;
+  height: 7px;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  width: 987px;
+  top: 21px;
+  left: 146px;
+  font-family: "PT Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 49px;
+}
