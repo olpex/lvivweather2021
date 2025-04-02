@@ -6,23 +6,41 @@
     <title>Зима у Львові 2021</title>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1 class="main-title">Зима у Львові у 2021 році...<br />... погода верує</h1>
+        <div class="header-top">
+          <h1 class="main-title">Зима у Львові у 2021 році...<br />... погода верує</h1>
+          <button class="menu-toggle" aria-label="Відкрити меню">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+
+        <nav class="main-nav">
+          <ul class="menu">
+            <li><a href="#" class="active">Головна</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#news">Новини</a></li>
+            <li><a href="#about">Про місто</a></li>
+            <li><a href="#contacts">Контакти</a></li>
+          </ul>
+        </nav>
+
         <hr class="divider" />
       </header>
-      
-      <section class="image-gallery">
+
+      <section id="gallery" class="image-gallery">
         <img src="./images/2 2.png" alt="Зимовий Львів" class="gallery-image image1">
         <img src="./images/3 1.png" alt="Зимовий Львів" class="gallery-image image2">
         <img src="./images/4 1.png" alt="Зимовий Львів" class="gallery-image image3">
       </section>
-      
+
       <hr class="divider" />
-      
-      <section class="news-section">
+
+      <section id="news" class="news-section">
         <div class="news-item">
           <img class="news-image" src="./images/6 1.png" alt="Зимовий Львів" />
           <div class="news-content">
@@ -35,7 +53,7 @@
           </div>
         </div>
       </section>
-      
+
       <section class="news-section reverse">
         <div class="news-item">
           <div class="news-content">
@@ -49,6 +67,38 @@
           <img class="news-image" src="./images/5 1.png" alt="Зимовий Львів" />
         </div>
       </section>
+
+      <hr class="divider" />
+
+      <section id="about" class="about-section">
+        <h2 class="section-title">Про місто</h2>
+        <div class="about-content">
+          <p>Львів — місто в Західній Україні, адміністративний центр Львівської області, національно-культурний та освітньо-науковий осередок країни.</p>
+          <p>Зимовий Львів особливо мальовничий, коли старовинні будівлі вкриваються снігом, а вулички старого міста набувають казкового вигляду.</p>
+        </div>
+      </section>
+
+      <hr class="divider" />
+
+      <section id="contacts" class="contacts-section">
+        <h2 class="section-title">Контакти</h2>
+        <div class="contacts-content">
+          <div class="contact-info">
+            <p><strong>Адреса:</strong> м. Львів, пл. Ринок, 1</p>
+            <p><strong>Телефон:</strong> +380 322 97 55 55</p>
+            <p><strong>Email:</strong> lviv@city.gov.ua</p>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="main-footer">
+        <p>&copy; 2021 Зима у Львові. Всі права захищені.</p>
+      </footer>
     </div>
   </body>
 </html>
